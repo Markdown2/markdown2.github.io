@@ -12,7 +12,7 @@ In order to support Jekyll syntax we recommend this section at very bottom but p
 
 
 
- 	---
+ 	  ---
     columns=2;
     prettify=1;
     bootstrap=1;
@@ -35,6 +35,7 @@ Value         | Default | Description
 --------------|---------|---
 `columns`     | 2       | how many columns document should be. Apply CSS `column-count` property.
 `syntax_theme`    | 0       | Will load Google prettifier script on the page al call it.
+`css_framework`    | bootstrap | This will tell parser what classes to add to typography in CSS Framework section.
 `css`         | none    | Will import CSS file on the page. You can include few separated by coma.
 `js`  | none    | Will load external Javascript. You can include few separated by coma.
 `date` |  none | Publish date. Will be placed at the bottom of document. Time is optional.

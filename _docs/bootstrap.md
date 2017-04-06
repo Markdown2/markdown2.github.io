@@ -6,6 +6,10 @@ order: 300
 
 [Twitted bootstrap](http://twitter.github.io/bootstrap), ZURB Foundation are most popular frontend development CSS framework nowadays. It is absolutely useful to have support of it. It means that you can use standard bootstrap classes to format your page. And you do not need to style it. Just include `bootstrap.css`.
 
+There is a parametr in meta section that tells interpriter to what framework to style document Twitter Bootstrap or Zurb Faundation or Materialize. Those are 3 major frameworks plan to support.
+
+> TODO: Example of HTML generation for each framework.
+
 On the other hand if you do not use or do not want to use bootstrap, this is still very useful and you can just ad your own CSS to format bootstrap classes that are used by Markdown 2.
 
 ## Badges and Labels
@@ -19,8 +23,8 @@ There are ((12)) pieces but only !((5)) of them are ![[usable]] and ((7)) are [[
 **Raw HTML**
 
 ```html
-There are <span class="badge">12</span> pieces but only <span class="badge badge-important">5</span>
-of them are <span class="label label-important">usable</span> and <span class="badge">12</span> 
+There are <span class="badge">12</span> pieces but only <span class="badge badge-important alert">5</span>
+of them are <span class="label label-important alert">usable</span> and <span class="badge">12</span> 
 are <span class="label">unusable</span>.
 ```
 
@@ -49,7 +53,7 @@ lead text is just like blockquote starts with `>` but with `!!!`
 
 **Markdown**
 
-	[[ This is yellow alert. ]]
+	[[ This is default alert. ]]
 	
 	some text 
 	
@@ -58,16 +62,16 @@ lead text is just like blockquote starts with `>` but with `!!!`
 **Raw HTML**
 
 ```html
-<div class="alert">This is yellow alert.</div>
+<div class="alert callout">This is yellow alert.</div>
 <p>some text</p>
-<div class="alert alert-error">Another red alert.</div>
+<div class="alert alert-error callout">Another red alert.</div>
 ```
 
 If there is a `:` following by the first alert word, this word will become postfix for `alert-` class. 
 
 Indicator | Class           | Color
 ----------|-----------------|-------
-none      | `alert`         | Yeloow
+none      | `alert`         | default
 Important | `alert-error`   | Red
 Info      | `alert-info`    | Blue
 Hint      | `alert-success` | Green
