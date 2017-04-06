@@ -133,8 +133,10 @@ This is why we wan to create readable alternative table layout.
 	
 	Here is the example
 		
-		<?php  insert(array($page, $header)); ?>
-		
+	```php
+	<?php  insert(array($page, $header)); ?>
+	```
+
 	|===========================|
 	
 	Method Name: `delete()`
@@ -143,8 +145,10 @@ This is why we wan to create readable alternative table layout.
 	- `$element` - string element name
 	
 	Here is the example
-		
-		<?php  delete('header'); ?>
+	
+	```php	
+	<?php  delete('header'); ?>
+	```
 	|__________________________|
 
 As you can see this is very readable text format of table. First you set header and define number of columns and columns names.
