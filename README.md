@@ -1,2 +1,3 @@
-# markdown2.github.io
-Markdown 2 demonstration and spesifications
+# Markdown 2
+
+It is time to make Markdown great again!

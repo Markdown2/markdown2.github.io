@@ -1,0 +1,19 @@
+{
+  "name": "markdown2.github.io",
+  "version": "1.0.0",
+  "description": "It is time to make Markdown great again!",
+  "main": "index.js",
+  "scripts": {
+    "serve": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markdown2/markdown2.github.io.git"
+  },
+  "author": "Sergey Romanov (serg4172@mail.ru)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Markdown2/markdown2.github.io/issues"
+  },
+  "homepage": "https://markdown2.org"
+}
