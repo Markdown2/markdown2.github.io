@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
-{% include head.html %}
+{% include head.liquid %}
 
 <body>
 
-  {% include header.html %}
+  {% include header.liquid %}
 
   <div class="row">
     <div class="columns large-12">
-      {% include nav-breadcrumbs.html %}
+      {% include nav-breadcrumbs.liquid %}
     </div>
   </div>
 
@@ -17,7 +17,7 @@
     {{ content }}
   </section>
 
-  {% include footer.html %}
+  {% include footer.liquid %}
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/4.1.1/what-input.min.js"></script>
