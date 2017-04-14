@@ -6,6 +6,7 @@ var docs = {
 {% endfor %}
 {% for post in site.pages %}
     {% if post.url contains '.html' %}
-        {% include post.json %},
+        {% include post.json.liquid %},
     {% endif %}
-{% endfor %}};
+{% endfor %}
+};
