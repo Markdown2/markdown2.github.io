@@ -1,5 +1,5 @@
 ---
-title: Intorduction to documentation
+title: Introduction to documentation
 menu: Sinopsis
 breadcrumb: Docs, Sinopsis
 order: 100
@@ -11,6 +11,6 @@ Please use `.md2` extensions to save your Markdown 2 files. We recommend this ex
 
 ### Markdown 2 target
 
-1. We did not want to create HTML programming language. The readability of the text document is still highest priority. Our plan is to create syntax that is highly readable in `.md2` as plain text documents.
+1. We did not want to create HTML markup language. The readability of the text document is still highest priority. Our plan is to create syntax that is highly readable in `.md2` as plain text documents.
 
 2. We want to keep Markdown markup intuitively understood like `!!!` for lead text and `--Something--`  for small or `++Something++` for big text. 
