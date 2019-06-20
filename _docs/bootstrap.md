@@ -49,67 +49,7 @@ lead text is just like blockquote starts with `>` but with `!!!`
 
 <div class="lead">This is lead text</div>
 
-## Alerts
 
-**Markdown**
-
-	[[ This is default alert. ]]
-	
-	some text 
-	
-	[[ Important: Another red alert. ]]
-
-**Raw HTML**
-
-```html
-<div class="alert callout">This is yellow alert.</div>
-<p>some text</p>
-<div class="alert alert-error callout">Another red alert.</div>
-```
-
-If there is a `:` following by the first alert word, this word will become postfix for `alert-` class. 
-
-Indicator | Class           | Color
-----------|-----------------|-------
-none      | `alert`         | default
-Important | `alert-error`   | Red
-Info      | `alert-info`    | Blue
-Hint      | `alert-success` | Green
-
-**Result**
-
-<div class="alert">This is yellow alert.</div>
-<p>Another alert</p>
-<div class="alert alert-error">Another red alert.</div>
-
-## Definition Lists
-
-**Markdown**
-
-```
-- Name:: John Doe
-- Position:: Director
-```
-
-**Raw HTML**
-
-```html
-<dl>
-    <dt>Name</dt>
-    <dd>John Doe</dd>
-    <dt>Position</dt>
-    <dd>Director</dd>
-</dl>
-```
-
-**Result**
-
-<dl>
-    <dt>Name</dt>
-    <dd>John Doe</dd>
-    <dt>Position</dt>
-    <dd>Director</dd>
-</dl>
 
 
 ## Hero unit
