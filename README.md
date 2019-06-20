@@ -1,3 +1,3 @@
 # Markdown 2
 
-It is time to make Markdown great again!
+This is just a redirect to another repository
